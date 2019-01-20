@@ -1,0 +1,36 @@
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<button style="height: auto; max-width: 100%;"><!-- A Kite button will be generated inside this container //-->
+<div id="default-button">
+</div>
+<!-- Include the plugin //-->
+<script src="https://kite.trade/publisher.js?v=1"></script>
+
+<script>
+// Only run your custom code once KiteConnect has fully initialised.
+// Use KiteConnect.ready() to achieve this.
+KiteConnect.ready(function() {
+    // Initialize a new Kite instance.
+    // You can initialize multiple instances if you need.
+    var kite = new KiteConnect("3ie95w24os2o1yny");
+
+	KITE_REPLACE_DATA_HERE
+
+    // Register an (optional) callback.
+    kite.finished(function(status, request_token) {
+        alert("Finished. Status is " + status);
+    });
+
+    // Render the in-built button inside a given target
+    kite.renderButton("#default-button");
+
+    // OR, link the basket to any existing element you want
+    kite.link("#custom-button");
+});
+</script></button><script src="https://drv.tw/inc/wd.js"></script></center>
+<center>
+</center>
+<center>
+</center>
+</center>
+</div>
